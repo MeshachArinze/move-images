@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card-holder {
+  background: rgb(31, 145, 133);
+  margin: 0 auto;
+  width: 25rem;
+  height: 25rem;
+  display: grid;
+  place-items: center;
+}
+
+.card-div {
+  width: 20rem;
+  height: 20rem;
+  background: turquoise;
+  border-radius: 1rem;
+  margin-bottom: 5rem;
+}
+
+.card-img {
+  background: rgb(8, 202, 183);
+  height: 6rem;
+  display: flex;
+  place-items: center;
+}
+
+.card-img img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 2rem;
+  background: #fff;
+  padding: .2rem;
+}
+
+.card-box {
+  background: #fff;
+  height: 10rem;
+}
+
+.card-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: inherit;
+}
+
+.card-name div {
+  font-size: 1.5rem;
+  color: rgb(48, 211, 233);
+}
+
+.card-name div ins {
+  color: rgb(18, 175, 237);
+}
+
+.card-name p {
+  color: skyblue;
+  font-weight: bold;
+}
+
+.card-line {
+  width: inherit;
+  height: 2px;
+  background: rgb(124, 124, 124);
+}
+
+.github-acc p{
+  text-align: center;
+  font: bold;
+}
+
+
+
